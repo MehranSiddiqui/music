@@ -1,0 +1,72 @@
+body{
+    background-color: hsl(225,100%,94%);
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Red Hat Display', sans-serif;;
+    font-weight: bold;
+}
+.card{
+    margin: auto;
+    transform: translate(0px ,-25rem);
+    border-radius: 0.5rem;
+}
+p{
+    margin: 0;
+}
+.plan{
+    text-align: center;
+    width: 90%;
+    background-color: hsl(225,100%,94%);
+    margin: 10% auto;
+    border-radius: 10px;
+    
+}
+a{
+    padding-left: 5%;
+}
+button{
+    padding: 1% 19%;
+    border-style: hidden;
+    border-radius: 0.3rem;
+    background-color: hsl(245, 75%, 52%);
+}
+button:hover{
+    background-color:hsl(224, 23%, 55%);
+    box-shadow: 4rem;
+}
+
+.attribution{
+    transform: translate(0,-22.5rem);
+}
+.icon{
+    border-radius: 50%;
+    background-color:rgb(164, 165, 165); 
+    margin: 6%;
+}
+#cancel:hover{
+color: hsl(223, 47%, 23%);
+font-weight: bolder;
+}
+#music{
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+@media (max-width:344px){
+    *{
+        overflow: hidden;
+    }
+    .card{
+        width: 70%;
+    }
+    button:hover{
+        background-color:hsl(224, 23%, 55%);
+        box-shadow: 4rem;
+    }
+    .attribution{
+        transform: translate(0,-23.5rem);
+    }
+    #cancel:hover{
+        color: hsl(223, 47%, 23%);
+        font-weight: bolder;
+        }
+}
